@@ -90,9 +90,6 @@ function CFG() {
         <Paragraph>
           Biomarkers: concordant gene expression in brain and peripheral tissues such as blood, due to inherited genetic factors (e.g., promoter regions, signal transduction modules) or external factors (medications, stress and other environmental effects).
         </Paragraph>
-        <Paragraph>
-          TESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTING
-          </Paragraph>
       </Section>
     </Container>
   );
