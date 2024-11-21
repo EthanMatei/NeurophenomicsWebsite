@@ -75,6 +75,7 @@ function Navbar() {
         </li>
         <li><NavbarLink to="/media">Media</NavbarLink></li>
         <li><NavbarLink to="/research">Research</NavbarLink></li>
+        <li><NavbarLink to="/FAQ">FAQ</NavbarLink></li>
       </NavbarLinks>
     </NavbarContainer>
   );

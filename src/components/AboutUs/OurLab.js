@@ -53,9 +53,9 @@ function OurLab() {
     <Container>
       <Title>Our Lab</Title>
       <SubNav>
-        <SubNavLink to="firsts-by-our-lab">Firsts by Our Lab</SubNavLink>
         <SubNavLink to="lab-members">Lab Members</SubNavLink>
-        <SubNavLink to="faq">FAQ</SubNavLink>
+        <SubNavLink to="firsts-by-our-lab">Firsts by Our Lab</SubNavLink>
+        <SubNavLink to="recent">Recent Presentations</SubNavLink>
       </SubNav>
       <ContentContainer>
         <Outlet />

@@ -16,6 +16,10 @@ import Pyramids from './components/Research/Pyramids';
 import PathwaysAndMechanisms from './components/Research/PathwaysAndMechanisms';
 import SelectedPublications from './components/ResearchAndPublications/SelectedPublications';
 import Media from './components/MediaAndCommunity/Media';
+import RecentPresentations from './components/AboutUs/recentpresen.js';
+import BiomarkerFAQ from './components/FAQs/BioDisc.js';
+import BipolarGenesFAQ from './components/FAQs/BipDisc.js';
+import MoodFAQ from './components/FAQs/Moodfaq.js';
 
 // Other component imports...
 
@@ -28,12 +32,20 @@ function App() {
         <Route path="/selected-publications" element={<SelectedPublications />} />
         <Route path="/media" element={<Media />} />
 
+
+        <Route path="/FAQ" element={<FAQ />} >
+          <Route index element={<BiomarkerFAQ />} />
+          <Route path="biodiscfaq" element={<BiomarkerFAQ />} />
+          <Route path="bidiscfaq" element={<BipolarGenesFAQ />} />
+          <Route path="moodfaq" element={<MoodFAQ />} />
+        </Route>
+
         {/* Our Lab Route */}
-        <Route path="/our-lab" element={<OurLab />}>
-          <Route index element={<FirstsByOurLab />} /> {/* Default child route */}
-          <Route path="firsts-by-our-lab" element={<FirstsByOurLab />} />
+        <Route path="/Our-Lab" element={<OurLab />}>
+          <Route index element={<LabMembers />} /> {/* Default child route */}
           <Route path="lab-members" element={<LabMembers />} />
-          <Route path="faq" element={<FAQ />} />
+          <Route path="firsts-by-our-lab" element={<FirstsByOurLab />} />
+          <Route path='recent' element={<RecentPresentations />} />
         </Route>
 
         {/* Research Route */}

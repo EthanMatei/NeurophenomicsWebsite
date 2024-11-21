@@ -87,53 +87,53 @@ function LabMembers() {
   const currentMembers = [
     {
       name: 'Alexander B. Niculescu III, M.D., Ph.D.',
-      title: 'Professor of Psychiatry, Founding Director, C4P (Center for Precise, Personalized, and Preventive Psychiatry) The University of Arizona College of Medicine – Phoenix,Staff Psychiatrist, Carl T. Hayden VA Medical Center',
+      title: 'Professor of Psychiatry, Founding Director, C4P (Center for Precise, Personalized, and Preventive Psychiatry) The University of Arizona College of Medicine – Phoenix, \t Staff Psychiatrist and R&D Investigator, Carl T. Hayden VA Medical Center',
       image: drnimg, // Add your images to the public folder
     },
     {
       name: 'Helen Le-Niculescu, Ph.D.',
-      title: 'Assistant Research Professor',
+      title: 'Staff Scientist',
       image: helenimg,
     },
-      {
-        name: 'Andy Gettelfinger, M.Sc.',
-        title: 'Medical Student',
-        image: andyimg,
-      },
-      {
-        name: 'Emily Paul, B.Sc.',
-        title: 'Research Assistant',
-        image: emilyimg,
-      },
-      {
-        name: 'Ethan Matei',
-        title: 'Undergraduate Research Assistant',
-        image: ethanimg,
-      },
-      {
-        name: 'Jessica Cooke',
-        title: 'Psychology Research Assistant',
-        image: jessicaimg,
-      },
-      {
-        name: 'Joyatee Sarker, M.D., Ph.D.',
-        title: 'Psychiatry Resident',
-        image: joyateeimg,
-      },
-      {
-        name: 'Rowan Bhagar',
-        title: 'Undergraduate Research Assistant',
-        image: rowanimg,
-      },
-      {
-        name: 'Sophia Corey',
-        title: 'Undergraduate Research Assistant',
-        image: sophiaimg,
-      },
     {
-     name: 'Adam Bedeir',
-     title: 'High School Intern',
-     image: adamimg,
+      name: 'Adam Bedeir',
+      title: 'High School Intern',
+      image: adamimg,
+    },
+    {
+      name: 'Rowan Bhagar',
+      title: 'Undergraduate Research Assistant',
+      image: rowanimg,
+    },
+    {
+      name: 'Jessica Cooke, B.Sc.',
+      title: 'Graduate Research Assistant',
+      image: jessicaimg,
+    },
+    {
+      name: 'Sophia Corey',
+      title: 'Undergraduate Research Assistant',
+      image: sophiaimg,
+    },
+    {
+      name: 'Andy Gettelfinger, M.Sc.',
+      title: 'Medical Student',
+      image: andyimg,
+    },
+    {
+      name: 'Ethan Matei',
+      title: 'Undergraduate Research Assistant',
+      image: ethanimg,
+    },
+    {
+      name: 'Emily Paul, B.Sc.',
+      title: 'Graduate Research Assistant',
+      image: emilyimg,
+    },
+    {
+      name: 'Joyatee Sarker, M.D., Ph.D.',
+      title: 'Psychiatry Resident',
+      image: joyateeimg,
     }
   ];
 
