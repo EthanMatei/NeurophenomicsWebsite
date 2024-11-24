@@ -63,7 +63,9 @@ const MemberTitle = styled.p`
   margin: 10px 0 0;
   font-size: 1.1rem;
   line-height: 1.5;
+  white-space: pre-wrap; /* Allows \n to work */
 `;
+
 
 /* Styles for Alumni */
 const AlumniList = styled.ul`
@@ -87,7 +89,7 @@ function LabMembers() {
   const currentMembers = [
     {
       name: 'Alexander B. Niculescu III, M.D., Ph.D.',
-      title: 'Professor of Psychiatry, Founding Director, C4P (Center for Precise, Personalized, and Preventive Psychiatry) The University of Arizona College of Medicine – Phoenix, \t Staff Psychiatrist and R&D Investigator, Carl T. Hayden VA Medical Center',
+      title: 'Professor of Psychiatry, Founding Director, C4P (Center for Precise, Personalized, and Preventive Psychiatry)\nThe University of Arizona College of Medicine – Phoenix\nStaff Psychiatrist and R&D Investigator, Carl T. Hayden VA Medical Center \n\nEmail: aniculescu@arizona.edu',
       image: drnimg, // Add your images to the public folder
     },
     {
@@ -138,9 +140,6 @@ function LabMembers() {
   ];
 
   const alumni = [
-    { name : "Kyle Roseberry, MD.", title: "Psychiatrist, VA"},
-    { name : "Jim Mullen, Ph.D.", title: "IT Guru"},
-    { name : "Sumanpreet Singh Gill, M.D.", title: "Family Medicine Resident"},
     { name: "Will Anastasiadis, Psy.D.", title: "Children's Hospital Colorado, CO" },
     { name: "Katie Andrews, M.D., Ph.D.", title: "Indiana University School of Medicine" },
     { name: "Brion Bertsh, M.D.", title: "Neurologist, Fairmount, IN" },
@@ -152,6 +151,7 @@ function LabMembers() {
     { name: "Craig Dike, Psy.D.", title: "Psychologist, VA Medical Center, San Antonio, TX" },
     { name: "Kaitlyn Engle, MD", title: "Pediatrics Resident, IU School of Medicine" },
     { name: "Miranda Gavrin", title: "Software Engineer, Aurora, Pittsburgh, PA" },
+    { name : "Sumanpreet Singh Gill, M.D.", title: "Family Medicine Resident"},
     { name: "Emily Gilmore, Psy.D.", title: "Clinical Psychologist, Bethel Olentangy, Columbus, OH" },
     { name: "Katie Harlow, M.D.", title: "Pediatric Gastroenterology, Riley Children's Health, IN" },
     { name: "Leslie Hulvershorn, M.D.", title: "Chairman, Department of Psychiatry, IU School of Medicine" },
@@ -159,6 +159,7 @@ function LabMembers() {
     { name: "Daniel Levey, Ph.D.", title: "Assistant Professor of Psychiatry, Yale School of Medicine" },
     { name: "Shira Louria, Psy.D.", title: "Clinical Psychologist, University of Vermont Health Network, VT" },
     { name: "SudhaRani Mamidipalli, M.S.", title: "Data Curation Strategy Leader, Eli Lilly, Indianapolis" },
+    { name : "Jim Mullen, Ph.D.", title: "IT Guru"},
     { name: "Lauren Myers", title: "Doctoral Intern, Jane Pauley Community Health Center, Anderson, IN" },
     { name: "Kyle Olesek, Psy.D.", title: "Psychologist, VA Medical Center, Indianapolis" },
     { name: "Zachary Parrett, Psy.D.", title: "Psychologist, VA Medical Center, Kansas City, MO" },
@@ -193,6 +194,7 @@ function LabMembers() {
     { name: "Laura E. Palmer, M.D.", title: "Anesthesiologist, Community Hospital North, Indianapolis, IN" },
     { name: "Sagar D. Patel, M.D.", title: "Emergency Medicine Physician, Community Hospital East, IN" },
     { name: "Michael Rich, M.D.", title: "Cardiology, Boise, ID" },
+    { name : "Kyle Roseberry, MD.", title: "Psychiatrist, VA"},
     { name: "Mark Radel, Psy.D.", title: "Psychologist, LifeSpan Counseling & Psychological Services, Oak Park, IL" },
     { name: "Carolyn Sherer, Psy.D.", title: "Clinical Neuropsychologist, National Institute of Health, Washington, DC" },
     { name: "Kanwaldeep S. Sidhu, M.D.", title: "Attending Psychiatrist, Community North Hospital" },

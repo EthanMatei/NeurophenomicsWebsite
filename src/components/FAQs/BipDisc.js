@@ -115,15 +115,13 @@ function BipolarGenesFAQ() {
         <>
           Alexander B. Niculescu III, MD, PhD
           <br />
-          Assistant Professor of Psychiatry and Medical Neuroscience, Indiana University School of Medicine
+          Professor of Psychiatry, Founding Director, C4P (Center for Precise, Personalized, and Preventive Psychiatry)
           <br />
-          Staff Psychiatrist, Indianapolis VA Medical Center
+          The University of Arizona College of Medicine – Phoenix
           <br />
-          Director, INBRAIN and Laboratory of Neurophenomics
+          Staff Psychiatrist and R&D Investigator, Carl T. Hayden VA Medical Center
           <br />
-          Institute of Psychiatric Research, 791 Union Drive, Indianapolis, IN 46202-4887
-          <br />
-          Email: <a href="mailto:anicules@iupui.edu">anicules@iupui.edu</a>
+          Email: <a href="mailto:aniculescu@arizona.edu">aniculescu@arizona.edu</a>
         </>
       ),
     },

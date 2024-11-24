@@ -62,18 +62,18 @@ function Navbar() {
     <NavbarContainer>
       <NavbarBrand>
         <Logo src={logo} alt="Logo" />
-        <Title>Laboratory of Neurophenomics</Title>
+        <Title>C4P - Laboratory of Neurophenomics</Title>
       </NavbarBrand>
       <NavbarLinks>
         <li><NavbarLink to="/">Home</NavbarLink></li>
         <li><NavbarLink to="/selected-publications">Publications</NavbarLink></li>
+        <li><NavbarLink to="/media">Media</NavbarLink></li>
         <li><NavbarLink to="/Our-Lab">Our Lab</NavbarLink></li>
         <li>
           <ExternalLink href="https://neurophenomicslab.blogspot.com/" target="_blank" rel="noopener noreferrer">
             Blog
           </ExternalLink>
         </li>
-        <li><NavbarLink to="/media">Media</NavbarLink></li>
         <li><NavbarLink to="/research">Research</NavbarLink></li>
         <li><NavbarLink to="/FAQ">FAQ</NavbarLink></li>
       </NavbarLinks>
