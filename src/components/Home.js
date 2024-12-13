@@ -32,7 +32,7 @@ const MissionTitle = styled.h1`
 
 const MissionText = styled.p`
   font-size: 1.1rem;
-  line-height: 1.8;
+  line-height: 1.2;
   color: #4a4a4a;
   margin-bottom: 20px;
 `;

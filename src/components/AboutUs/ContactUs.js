@@ -18,7 +18,7 @@ const Title = styled.h1`
 const ContactInfo = styled.div`
   margin-top: 20px;
   color: #2c3e50;
-  line-height: 1.8;
+  line-height: 1.2;
 `;
 
 const InfoItem = styled.p`
@@ -26,12 +26,6 @@ const InfoItem = styled.p`
   padding: 5px 0;
 `;
 
-const Quote = styled.p`
-  margin-top: 20px;
-  font-style: italic;
-  text-align: center;
-  color: #7f8c8d;
-`;
 
 function ContactPage() {
   return (
@@ -47,10 +41,8 @@ function ContactPage() {
         <InfoItem>475 N. 5th Street</InfoItem>
         <InfoItem>Phoenix, AZ 85004-2230</InfoItem>
         <InfoItem>Staff Psychiatrist and R&D Investigator, Carl T. Hayden VAMC</InfoItem>
+        <InfoItem>Email: aniculescu@arizona.edu</InfoItem>
       </ContactInfo>
-      <Quote>
-        “The longer I live, the more beautiful life becomes.” - Frank Lloyd Wright
-      </Quote>
     </Container>
   );
 }
