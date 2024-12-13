@@ -20,6 +20,7 @@ import RecentPresentations from './components/AboutUs/recentpresen.js';
 import BiomarkerFAQ from './components/FAQs/BioDisc.js';
 import BipolarGenesFAQ from './components/FAQs/BipDisc.js';
 import MoodFAQ from './components/FAQs/Moodfaq.js';
+import ContactPage from './components/AboutUs/ContactUs';
 
 // Other component imports...
 
@@ -31,6 +32,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/selected-publications" element={<SelectedPublications />} />
         <Route path="/media" element={<Media />} />
+        <Route path="/Firsts" element={<FirstsByOurLab />} />
+        <Route path="/contactus" element={<ContactPage />} />
 
 
         <Route path="/FAQ" element={<FAQ />} >

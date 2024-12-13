@@ -684,7 +684,7 @@ function SelectedPublications() {
 
   return (
     <Container>
-      <Title>Selected Publications</Title>
+      <Title>Translational Psychiatry</Title>
       <Subtitle>
         “Look to the genome to rebuild healthcare” -Leroy Hood, Institute for Systems Biology
       </Subtitle>
