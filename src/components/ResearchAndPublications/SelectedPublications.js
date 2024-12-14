@@ -77,7 +77,7 @@ const publications = [
     title: "Next-generation precision medicine for suicidality prevention",
     authors:
       "R Bhagar, S S Gill, H Le-Niculescu, C Yin, K Roseberry, J Mullen, M Schmitz, E Paul, J Cooke, C Tracy, Z Tracy, A S Gettelfinger, D Battles, M Yard, G Sandusky, A Shekhar, S M Kurian, P Bogdan, A B Niculescu",
-    journal: "Transl Psychiatry. 2024 Sep 6;14(1):362",
+    journal: "Translational Psychiatry. 2024 Sep 6;14(1):362",
     doi: "10.1038/s41398-024-03071-y",
     pmid: "39242534",
     link: "/assets/pdfs/PDF1.pdf",
@@ -684,7 +684,7 @@ function SelectedPublications() {
 
   return (
     <Container>
-      <Title>Translational Psychiatry</Title>
+      <Title>Publications</Title>
       <Subtitle>
         “Look to the genome to rebuild healthcare” -Leroy Hood, Institute for Systems Biology
       </Subtitle>

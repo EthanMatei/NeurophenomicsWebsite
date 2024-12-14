@@ -46,9 +46,14 @@ const MediaItem = styled.li`
 function Media() {
   const mediaSections = [
     {
+      title:"Special Report: Precise, Personalized, and Preventive Psychiatry",
+      items: [
+        {text: "Psychiatric News", link:"https://psychiatryonline.org/doi/10.1176/appi.pn.2024.12.12.27"}
+      ]
+    },
+    {
       title: "Precision medicine for psychotic disorders: objective assessment, risk prediction, and pharmacogenomics",
       items: [
-        { text: "Psychiatric News Release", link:"https://psychiatryonline.org/doi/10.1176/appi.pn.2024.12.12.27"},
         { text: "IU School of Medicine News Release", link: "https://medicine.iu.edu/news/2024/02/psychosis-blood-test" },
         { text: "NIH Research Matters", link: "https://www.nih.gov/news-events/nih-research-matters/blood-test-may-predict-psychosis-risks" },
         { text: "New York Post", link: "https://nypost.com/2024/02/08/lifestyle/new-blood-test-predicts-schizophrenia-risk-best-treatments/" },
