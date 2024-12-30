@@ -13,6 +13,10 @@
   }
 }
 
+.main-content {
+  margin-left: 100000px; /* So content starts at right of sidebar */
+  padding: 2rem;      /* Some breathing room */
+}
 
 
 .App-header {

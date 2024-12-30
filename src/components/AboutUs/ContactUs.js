@@ -36,8 +36,7 @@ function ContactPage() {
         <InfoItem>Professor of Psychiatry</InfoItem>
         <InfoItem>Founding Director, C4P (Center for Precise, Personalized, and Preventive Psychiatry)</InfoItem>
         <InfoItem>BSPB, 6th floor, E619</InfoItem>
-        <InfoItem>The University of Arizona</InfoItem>
-        <InfoItem>College of Medicine – Phoenix</InfoItem>
+        <InfoItem>The University of Arizona College of Medicine – Phoenix</InfoItem>
         <InfoItem>475 N. 5th Street</InfoItem>
         <InfoItem>Phoenix, AZ 85004-2230</InfoItem>
         <InfoItem>Staff Psychiatrist and R&D Investigator, Carl T. Hayden VAMC</InfoItem>

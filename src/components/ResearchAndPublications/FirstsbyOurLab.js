@@ -63,10 +63,22 @@ function FirstsByOurLab() {
     "First identification, validation, and evidence of predictive ability in independent cohorts for blood gene expression biomarkers for suicidality, in live people and suicide completers, alone and in combination with clinical data (2013)",
     "Comprehensive mapping of the genetic and biological landscape of alcoholism using CFG, with top findings showing unprecedented reproducibility in three independent large cohorts, of two different ethnicities, from two continents, and in both genders (2014)",
     "Integration of blood biomarkers and apps to predict suicidality in men (2015)",
+    "Developed the Convergent Functional Evidence (CFE) approach for biomarker discovery, prioritization, validation, and testing for clinical validity in multiple independent cohorts (2015)",
     "Integration of blood biomarkers and apps to predict suicidality in women (2016)",
     "Discovery of genes and blood biomarkers at the interface of mood, stress, and longevity (2016)",
-    "Development of precision medicine for suicidality, from diagnostics to medications, and identification of subtypes of suicidality (2017)"
+    "Development of precision medicine for suicidality, from diagnostics to medications, and identification of subtypes of suicidality (2017)",
+    "A simple polyphenic risk score for predicting suicidality risk without asking them if they have suicidal ideation (2019)",
+    "First identification, validation, and evidence of predictive ability in independent cohorts for blood gene expression biomarkers for pain, using cross-sectional and longitudinal approaches (2019)",
+    "First identification, validation, and evidence of predictive ability in independent cohorts for blood gene expression biomarkers for stress/PTSD (2020)",
+    "Demonstrating the convergence of biomarkers and independent GWAS data for suicidality (2020)",
+    "Development of precision medicine for memory disorders/Alzheimer’s, from diagnostics to repurposed medications (2020)",
+    "Development of precision medicine for mood disorders (depression, bipolar), from biomarkers to repurposed medications (2021)",
+    "Development of precision medicine for anxiety disorders, from biomarkers to repurposed medications (2023)",
+    "First identification of temporal effects on death by suicide (2023)",
+    "Development of precision medicine for psychotic disorders/schizophrenia, from biomarkers to  pharmacogenomics (2024)",
+    "Next-generation precision medicine  studies for suicidality, showing reproducibility across multiple platforms and independent cohorts, pharmacogenomics, and repurposed drugs (2024)",
   ];
+
 
   return (
     <Container>

@@ -21,19 +21,41 @@ import BiomarkerFAQ from './components/FAQs/BioDisc.js';
 import BipolarGenesFAQ from './components/FAQs/BipDisc.js';
 import MoodFAQ from './components/FAQs/Moodfaq.js';
 import ContactPage from './components/AboutUs/ContactUs';
+import GScholarRedirect from './components/MediaAndCommunity/gscholar.js';
+import LxmRedirect from './components/MediaAndCommunity/LxMbook.js';
+import styled from 'styled-components';
+import Philanthropy from './components/MediaAndCommunity/philanthropy.js';
+import PhotoAlbum from './components/photoalbum.js';
 
-// Other component imports...
+
+
+const Layout = styled.div`
+  display: flex; 
+  /* This ensures the sidebar is on the left, main content on the right */
+`;
+
+const MainContent = styled.div`
+  flex: 1;        /* Grow to fill remaining width */
+  padding: 2rem;  /* Optional spacing */
+`;
+
 
 function App() {
   return (
     <Router>
+      <Layout>
       <Navbar />
+      <MainContent>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/selected-publications" element={<SelectedPublications />} />
         <Route path="/media" element={<Media />} />
         <Route path="/Firsts" element={<FirstsByOurLab />} />
         <Route path="/contactus" element={<ContactPage />} />
+        <Route path="/gscholar" element={<GScholarRedirect />} />
+        <Route path="/book" element={<LxmRedirect />} />
+        <Route path="/philan" element={<Philanthropy />} />
+        <Route path="/photoalbum" element={<PhotoAlbum />} />
 
 
         <Route path="/FAQ" element={<FAQ />} >
@@ -63,6 +85,8 @@ function App() {
           <Route path="pathways-and-mechanisms" element={<PathwaysAndMechanisms />} />
         </Route>
       </Routes>
+      </MainContent>
+    </Layout>
     </Router>
   );
 }
