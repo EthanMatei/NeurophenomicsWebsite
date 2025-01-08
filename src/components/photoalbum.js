@@ -51,16 +51,16 @@ const captions = [
   "Spreading the gospel of Convergent Functional Genomics, PhenoChipping and 3D Mindscape", // 13
   "Biomarkers!", // 14
   "ABN with his idol of clear thinking, Francis Crick", // 15
-  "ABN and George Palade, a mentor and role model", // 16
-  "IUPUI Research Frontiers Trailblazer Award 2012", // 17
-  "ABN with one of his scientific heroes, Jim Watson", // 18
+  "ABN with one of his scientific heroes, Jim Watson", // 16
+  "ABN and George Palade, a mentor and role model", // 17 
+  "ABN with one of his mentors, Prof. Ming Tsuang.", // 18 
   "Indiana Bob and the Pyramids of (CFG) Doom", // 19
-  "ABN with one of his mentors, Prof. Ming Tsuang.", // 20
+  "IUPUI Research Frontiers Trailblazer Award 2012", // 20
   "" // 21
 ];
 
 // Indices that are PNG vs. JPG
-const pngIndices = [2, 3, 11, 18, 19];
+const pngIndices = [2, 3, 11, 16, 19];
 
 // Images that should be displayed at original size (no max-width)
 const keepOriginalSizeIndices = [4, 14, 15];

@@ -22,7 +22,7 @@ function Philanthropy() {
     <Container>
       <Heading>Support Dr. Niculescu’s Research</Heading>
       <Paragraph>
-        A gift to support Dr. Niculescu’s research programs in personalized psychiatry is an investment in making a difference in patients' and families' lives, as well as in society.
+        A gift to support Dr. Niculescu’s research programs in personalized psychiatry is an investment in making a difference in the lives of patients and families, as well as in society.
       </Paragraph>
       <Paragraph>
         Tax-deductible gifts to support Dr. Niculescu’s work can be arranged by contacting Dr. Niculescu at{' '}
