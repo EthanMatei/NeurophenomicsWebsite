@@ -36,9 +36,9 @@ const Caption = styled.p`
 // Captions for each image number (1..21).
 // - Notice that #21 has no caption provided, so we leave it blank or add a placeholder.
 const captions = [
-  "Park City 2020. Along with key players in the psychiatric genetics field.", // 1
-  "Niculescu Lab", // 2
-  "Niculescu Lab", // 3
+  "ABN with his idol of clear thinking, Francis Crick", // 1
+  "ABN with one of his scientific heroes, Jim Watson", // 2 
+  "ABN and George Palade, a mentor and role model", // 3 
   "Dr. Niculescu", // 4
   "APA/AstraZeneca Young Minds in Psychiatry International Award - 2005", // 5
   "Theodore Reich Award from International Society for Psychiatric Genetics - New York, 2007", // 6
@@ -50,9 +50,9 @@ const captions = [
   "ABN with Nancy Andreasen, a terrific researcher and writer, sharing ideas on the neurobiology of schizophrenia", // 12
   "Spreading the gospel of Convergent Functional Genomics, PhenoChipping and 3D Mindscape", // 13
   "Biomarkers!", // 14
-  "ABN with his idol of clear thinking, Francis Crick", // 15
-  "ABN with one of his scientific heroes, Jim Watson", // 16
-  "ABN and George Palade, a mentor and role model", // 17 
+  "Park City 2020. Along with key players in the psychiatric genetics field.", // 15
+  "Niculescu Lab", // 16
+  "Niculescu Lab", // 17 
   "ABN with one of his mentors, Prof. Ming Tsuang.", // 18 
   "Indiana Bob and the Pyramids of (CFG) Doom", // 19
   "IUPUI Research Frontiers Trailblazer Award 2012", // 20
@@ -60,10 +60,10 @@ const captions = [
 ];
 
 // Indices that are PNG vs. JPG
-const pngIndices = [2, 3, 11, 16, 19];
+const pngIndices = [2, 11, 16, 17, 19];
 
 // Images that should be displayed at original size (no max-width)
-const keepOriginalSizeIndices = [4, 14, 15];
+const keepOriginalSizeIndices = [ 4, 14];
 
 function PhotoAlbum() {
   // Build an array of { src, index } for 21 images
