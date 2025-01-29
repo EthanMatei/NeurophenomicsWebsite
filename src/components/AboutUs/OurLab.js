@@ -4,9 +4,7 @@ import drnimg from '../../assets/Dr.N.png';
 import helenimg from '../../assets/Helen_2010.jpg'
 import rowanimg from '../../assets/rb.png';
 import jessicaimg from '../../assets/Jessica.png';
-import sophiaimg from '../../assets/SophiaCorey.png';
 import ethanimg from '../../assets/Ethan.jpg';
-import andyimg from '../../assets/Andy Med Student.png';
 import emilyimg from '../../assets/Emily.png';
 import joyateeimg from '../../assets/Joyateepng.png';
 import adamimg from '../../assets/Adam.jpg';
@@ -111,16 +109,6 @@ function LabMembers() {
       name: 'Jessica Cooke, B.Sc.',
       title: 'Graduate Research Assistant',
       image: jessicaimg,
-    },
-    {
-      name: 'Sophia Corey',
-      title: 'Undergraduate Research Assistant',
-      image: sophiaimg,
-    },
-    {
-      name: 'Andy Gettelfinger, M.Sc.',
-      title: 'Medical Student',
-      image: andyimg,
     },
     {
       name: 'Ethan Matei',
