@@ -8,6 +8,8 @@ import ethanimg from '../../assets/Ethan.jpg';
 import emilyimg from '../../assets/Emily.png';
 import joyateeimg from '../../assets/Joyateepng.png';
 import adamimg from '../../assets/Adam.jpg';
+import edieimg from '../../assets/edieimg.jpg';
+
 
 // Styled Components
 const Container = styled.div`
@@ -114,6 +116,11 @@ function LabMembers() {
       name: 'Ethan Matei',
       title: 'Undergraduate Research Assistant',
       image: ethanimg,
+    },
+    {
+      name: 'Edie Gobel',
+      title: 'Undergraduate Research Assistant',
+      image: edieimg,
     },
     {
       name: 'Emily Paul, B.Sc.',
