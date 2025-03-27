@@ -131,11 +131,6 @@ function LabMembers() {
       name: 'Joyatee Sarker, M.D., Ph.D.',
       title: 'Psychiatry Resident',
       image: joyateeimg,
-    },
-    {
-    name: 'Joyatee Sarker, M.D., Ph.D.',
-    title: 'Psychiatry Resident',
-    image: joyateeimg,
     }
   ];
 
