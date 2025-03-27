@@ -137,6 +137,7 @@ function LabMembers() {
   const alumni = [
     { name: "Will Anastasiadis, Psy.D.", title: "Children's Hospital Colorado, CO" },
     { name: "Katie Andrews, M.D., Ph.D.", title: "Indiana University School of Medicine" },
+    { name:"test", title:"test"},
     { name: "Brion Bertsh, M.D.", title: "Neurologist, Fairmount, IN" },
     { name: "Sugandha Bhosrekar, M.D.", title: "Psychiatrist, Minneapolis, MN" },
     { name: "Elizabeth Belanger, Psy.D.", title: "Clinical Psychologist, Hinesville VA Clinic, GA" },
