@@ -10,7 +10,6 @@ import andyimg from '../../assets/Andy Med Student.png';
 import emilyimg from '../../assets/Emily.png';
 import joyateeimg from '../../assets/Joyateepng.png';
 import adamimg from '../../assets/Adam.jpg';
-
 import aayushimg from '../../assets/Aayush.png';
 import mackenzieimg from '../../assets/Mackenzie.jpg';
 import nicholasimg from '../../assets/Nicholas.jpg';

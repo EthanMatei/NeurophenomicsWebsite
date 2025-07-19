@@ -9,7 +9,10 @@ import emilyimg from '../../assets/Emily.png';
 import joyateeimg from '../../assets/Joyateepng.png';
 import adamimg from '../../assets/Adam.jpg';
 import edieimg from '../../assets/edieimg.jpg';
-
+import aayushimg from '../../assets/Aayush.png';
+import mackenzieimg from '../../assets/Mackenzie.jpg';
+import nicholasimg from '../../assets/Nicholas.jpg';
+import robertimg from '../../assets/Robert.jpeg';
 
 // Styled Components
 const Container = styled.div`
