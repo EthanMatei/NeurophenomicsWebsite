@@ -11,6 +11,11 @@ import emilyimg from '../../assets/Emily.png';
 import joyateeimg from '../../assets/Joyateepng.png';
 import adamimg from '../../assets/Adam.jpg';
 
+import aayushimg from '../../assets/Aayush.png';
+import mackenzieimg from '../../assets/Mackenzie.jpg';
+import nicholasimg from '../../assets/Nicholas.jpg';
+import robertimg from '../../assets/Robert.jpeg';
+
 // Styled Components
 const Container = styled.div`
   max-width: 1200px;
@@ -98,6 +103,11 @@ function LabMembers() {
       image: helenimg,
     },
     {
+      name: 'Aayush Rastogi',
+      title: 'Undergraduate Research Assistant',
+      image: aayushimg,
+    },
+    {
       name: 'Adam Bedeir',
       title: 'High School Intern',
       image: adamimg,
@@ -136,6 +146,21 @@ function LabMembers() {
       name: 'Joyatee Sarker, M.D., Ph.D.',
       title: 'Psychiatry Resident',
       image: joyateeimg,
+    },
+    {
+      name: 'Mackenzie Lopez',
+      title: 'Undergraduate Research Assistant',
+      image: mackenzieimg,
+    },
+    {
+      name: 'Nicholas Novell',
+      title: 'Undergraduate Research Assistant',
+      image: nicholasimg,
+    },
+    {
+      name: 'Robert Salgado',
+      title: 'Undergraduate Research Assistant',
+      image: robertimg,
     }
   ];
 
