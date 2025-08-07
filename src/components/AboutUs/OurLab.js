@@ -8,11 +8,12 @@ import ethanimg from '../../assets/Ethan.jpg';
 import emilyimg from '../../assets/Emily.png';
 import joyateeimg from '../../assets/Joyateepng.png';
 import adamimg from '../../assets/Adam.jpg';
-import edieimg from '../../assets/edieimg.jpg';
+import edieimg from '../../assets/edieimg.png';
 import aayushimg from '../../assets/Aayush.png';
 import mackenzieimg from '../../assets/Mackenzie.jpg';
 import nicholasimg from '../../assets/Nicholas.jpg';
 import robertimg from '../../assets/Robert.jpeg';
+import joeyimg from '../../assets/joey.jpg';
 
 // Styled Components
 const Container = styled.div`
@@ -101,24 +102,24 @@ function LabMembers() {
       image: helenimg,
     },
     {
-      name: 'Aayush Rastogi',
+      name: 'Joey Balducci',
       title: 'Undergraduate Research Assistant',
-      image: aayushimg,
+      image: joeyimg,
     },
-    {
-      name: 'Adam Bedeir',
-      title: 'High School Intern',
-      image: adamimg,
-    },
+    // {
+    //   name: 'Adam Bedeir',
+    //   title: 'High School Intern',
+    //   image: adamimg,
+    // },
     {
       name: 'Rowan Bhagar',
       title: 'Undergraduate Research Assistant',
       image: rowanimg,
     },
     {
-      name: 'Jessica Cooke, B.Sc.',
-      title: 'Graduate Research Assistant',
-      image: jessicaimg,
+      // name: 'Jessica Cooke, B.Sc.',
+      // title: 'Graduate Research Assistant',
+      // image: jessicaimg,
     },
     {
       name: 'Ethan Matei',
@@ -130,16 +131,16 @@ function LabMembers() {
       title: 'Undergraduate Research Assistant',
       image: edieimg,
     },
-    {
-      name: 'Emily Paul, B.Sc.',
-      title: 'Graduate Research Assistant',
-      image: emilyimg,
-    },
-    {
-      name: 'Joyatee Sarker, M.D., Ph.D.',
-      title: 'Psychiatry Resident',
-      image: joyateeimg,
-    },
+    // {
+    //   name: 'Emily Paul, B.Sc.',
+    //   title: 'Graduate Research Assistant',
+    //   image: emilyimg,
+    // },
+    // {
+    //   name: 'Joyatee Sarker, M.D., Ph.D.',
+    //   title: 'Psychiatry Resident',
+    //   image: joyateeimg,
+    // },
     {
       name: 'Mackenzie Lopez',
       title: 'Undergraduate Research Assistant',
@@ -151,6 +152,11 @@ function LabMembers() {
       image: nicholasimg,
     },
     {
+      name: 'Aayush Rastogi',
+      title: 'Undergraduate Research Assistant',
+      image: aayushimg,
+    },
+    {
       name: 'Robert Salgado',
       title: 'Undergraduate Research Assistant',
       image: robertimg,
@@ -160,11 +166,13 @@ function LabMembers() {
   const alumni = [
     { name: "Will Anastasiadis, Psy.D.", title: "Children's Hospital Colorado, CO" },
     { name: "Katie Andrews, M.D., Ph.D.", title: "Indiana University School of Medicine" },
+    { name: "Adam Bedeir", title: "University of Arizona, Tucson" },
     { name: "Brion Bertsh, M.D.", title: "Neurologist, Fairmount, IN" },
     { name: "Sugandha Bhosrekar, M.D.", title: "Psychiatrist, Minneapolis, MN" },
     { name: "Elizabeth Belanger, Psy.D.", title: "Clinical Psychologist, Hinesville VA Clinic, GA" },
     { name: "Dean Bowker, M.D.", title: "Anesthesiology, California Pacific Medical Center, CA" },
     { name: "Natalie Case", title: "Project Manager, Labcorp, Evansville, IN" },
+    { name: "Jessica Cooke", title: "PhD Student, University of Indianapolis" },
     { name: "Jeremy Davis, Psy.D.", title: "Clinical Neuropsychologist, UT Health San Antonio, TX" },
     { name: "Craig Dike, Psy.D.", title: "Psychologist, VA Medical Center, San Antonio, TX" },
     { name: "Kaitlyn Engle, MD", title: "Pediatrics Resident, IU School of Medicine" },
@@ -182,6 +190,7 @@ function LabMembers() {
     { name: "Kyle Olesek, Psy.D.", title: "Psychologist, VA Medical Center, Indianapolis" },
     { name: "Zachary Parrett, Psy.D.", title: "Psychologist, VA Medical Center, Kansas City, MO" },
     { name: "Peter Phalen, Psy.D.", title: "University of Maryland" },
+    { name: "Emily Paul", title: "PhD Student, Indiana State University" },
     { name: "Hayley Robertson, Pharm.D.", title: "Pharmacist, Indianapolis, IN" },
     { name: "Swapna Raavi, M.D.", title: "Internal Medicine, St. Luke's, Duluth & Hermantown, MN" },
     { name: "Katie Soe, M.D.", title: "Pediatrics/Child & Adolescent Psychiatry Residency, IU School of Medicine" },
@@ -214,6 +223,7 @@ function LabMembers() {
     { name: "Michael Rich, M.D.", title: "Cardiology, Boise, ID" },
     { name : "Kyle Roseberry, MD.", title: "Psychiatrist, VA"},
     { name: "Mark Radel, Psy.D.", title: "Psychologist, LifeSpan Counseling & Psychological Services, Oak Park, IL" },
+    { name: "Joyatee Sarker, M.D., Ph.D.", title: "Chief Resident, Inidana University, School of Medicine" },
     { name: "Carolyn Sherer, Psy.D.", title: "Clinical Neuropsychologist, National Institute of Health, Washington, DC" },
     { name: "Kanwaldeep S. Sidhu, M.D.", title: "Attending Psychiatrist, Community North Hospital" },
     { name: "Ganesh Shankar", title: "Pervasive Technology Institute" },
