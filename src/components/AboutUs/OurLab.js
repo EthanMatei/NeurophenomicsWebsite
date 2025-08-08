@@ -13,7 +13,7 @@ import aayushimg from '../../assets/Aayush.png';
 import mackenzieimg from '../../assets/Mackenzie.jpg';
 import nicholasimg from '../../assets/Nicholas.jpg';
 import robertimg from '../../assets/Robert.jpeg';
-import joeyimg from '../../assets/joey.JPG';
+import joeyimg from '../../assets/joey.png';
 
 // Styled Components
 const Container = styled.div`
@@ -110,8 +110,6 @@ function LabMembers() {
       name: 'Rowan Bhagar',
       title: 'Undergraduate Research Assistant',
       image: rowanimg,
-    },
-    {
     },
     {
       name: 'Ethan Matei',
