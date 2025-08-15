@@ -14,7 +14,7 @@ import mackenzieimg from '../../assets/Mackenzie.jpg';
 import nicholasimg from '../../assets/Nicholas.jpg';
 import robertimg from '../../assets/Robert.jpeg';
 import joeyimg from '../../assets/joey.png';
-import Jonathanimg from '../../assets/Jonathanimg.png';
+import Jonathanimg from '../../assets/Jonathanimg.JPG';
 
 // Styled Components
 const Container = styled.div`
