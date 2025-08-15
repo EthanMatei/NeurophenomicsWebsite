@@ -111,6 +111,16 @@ function LabMembers() {
 
   const currentMembers = [
     {
+      name: 'Alexander B. Niculescu III, M.D., Ph.D.',
+      title: 'Professor of Psychiatry, Founding Director, C4P (Center for Precise, Personalized, and Preventive Psychiatry)\nThe University of Arizona College of Medicine – Phoenix\nStaff Psychiatrist and R&D Investigator, Carl T. Hayden VA Medical Center \n\nEmail: aniculescu@arizona.edu',
+      image: drnimg,
+    },
+    {
+      name: 'Helen Le-Niculescu, Ph.D.',
+      title: 'Staff Scientist',
+      image: helenimg,
+    },
+    {
       name: 'Joey Balducci',
       title: 'Research Assistant',
       image: joeyimg,
@@ -126,11 +136,6 @@ function LabMembers() {
       image: edieimg,
     },
     {
-      name: 'Helen Le-Niculescu, Ph.D.',
-      title: 'Staff Scientist',
-      image: helenimg,
-    },
-    {
       name: 'Mackenzie Lopez',
       title: 'Undergraduate Research Assistant',
       image: mackenzieimg,
@@ -140,11 +145,7 @@ function LabMembers() {
       title: 'Research Assistant',
       image: ethanimg,
     },
-    {
-      name: 'Alexander B. Niculescu III, M.D., Ph.D.',
-      title: 'Professor of Psychiatry, Founding Director, C4P (Center for Precise, Personalized, and Preventive Psychiatry)\nThe University of Arizona College of Medicine – Phoenix\nStaff Psychiatrist and R&D Investigator, Carl T. Hayden VA Medical Center \n\nEmail: aniculescu@arizona.edu',
-      image: drnimg,
-    },
+
     {
       name: 'Nicholas Novell',
       title: 'Undergraduate Research Assistant',
