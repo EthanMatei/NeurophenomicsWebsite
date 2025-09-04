@@ -80,7 +80,7 @@ const publications = [
     journal: "Molecular Psychiatry. 2025 Aug 25;30(1):186",
     doi: "10.1038/s41380-025-03186-8",
     pmid: "40855006",
-    link: "/assets/pdfs/PDF62.pdf",
+    link: "/assets/pdfs/pain.pdf",
   },
   {
     title: "Next-generation precision medicine for suicidality prevention",
