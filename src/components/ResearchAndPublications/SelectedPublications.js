@@ -74,6 +74,15 @@ const DownloadLink = styled.a`
 
 const publications = [
   {
+    title: "Next-generation precision medicine for pain",
+    authors:
+      "R. Bhagar, H. Le-Niculescu, S. C. Corey, A. S. Gettelfinger, M. Schmitz, A. Ebushi, E. Matei, C. Woods, J. Mullen, S. M. Kurian, A. Shekhar, F. A. White & AB Niculescu ",
+    journal: "Molecular Psychiatry. 2025 Aug 25;30(1):186",
+    doi: "10.1038/s41380-025-03186-8",
+    pmid: "40855006",
+    link: "/assets/pdfs/PDF62.pdf",
+  },
+  {
     title: "Next-generation precision medicine for suicidality prevention",
     authors:
       "R Bhagar, S S Gill, H Le-Niculescu, C Yin, K Roseberry, J Mullen, M Schmitz, E Paul, J Cooke, C Tracy, Z Tracy, A S Gettelfinger, D Battles, M Yard, G Sandusky, A Shekhar, S M Kurian, P Bogdan, A B Niculescu",
