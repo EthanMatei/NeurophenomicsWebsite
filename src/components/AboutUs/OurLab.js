@@ -15,7 +15,7 @@ import nicholasimg from '../../assets/Nicholas.jpg';
 import robertimg from '../../assets/Robert.jpeg';
 import joeyimg from '../../assets/joey.png';
 import Jonathanimg from '../../assets/Jonathanimg.JPG';
-import ashlynimg from '../../assets/Ashlyn.png'
+import ashlynimg from '../../assets/Ashlyn.jpg'
 // Styled Components
 const Container = styled.div`
   max-width: 1200px;
