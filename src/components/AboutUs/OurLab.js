@@ -16,6 +16,7 @@ import robertimg from '../../assets/Robert.jpeg';
 import joeyimg from '../../assets/joey.png';
 import Jonathanimg from '../../assets/Jonathanimg.JPG';
 import ashlynimg from '../../assets/Ashlyn.jpg'
+import tobiimg from '../../assets/tobi.jpg'
 // Styled Components
 const Container = styled.div`
   max-width: 1200px;
@@ -119,6 +120,11 @@ function LabMembers() {
       name: 'Helen Le-Niculescu, Ph.D.',
       title: 'Staff Scientist',
       image: helenimg,
+    },
+    {
+      name: 'Tobenna Ani',
+      title: 'High School Research Assistant',
+      image: tobiimg,
     },
     {
       name: 'Joey Balducci',
