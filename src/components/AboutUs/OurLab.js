@@ -15,7 +15,7 @@ import nicholasimg from '../../assets/Nicholas.jpg';
 import robertimg from '../../assets/Robert.jpeg';
 import joeyimg from '../../assets/joey.png';
 import Jonathanimg from '../../assets/Jonathanimg.JPG';
-
+import ashlynimg from '../../assets/Ashlyn.png'
 // Styled Components
 const Container = styled.div`
   max-width: 1200px;
@@ -129,6 +129,11 @@ function LabMembers() {
       name: 'Rowan Bhagar',
       title: 'Research Assistant',
       image: rowanimg,
+    },    
+    {
+      name: 'Ashlyn Germanos',
+      title: 'Research Assistant',
+      image: ashlynimg,
     },
     {
       name: 'Edie Gobel',
@@ -152,19 +157,9 @@ function LabMembers() {
       image: nicholasimg,
     },
     {
-      name: 'Aayush Rastogi',
-      title: 'Undergraduate Research Assistant',
-      image: aayushimg,
-    },
-    {
       name: 'Johnathan Romero',
       title: 'MD-PhD Student',
       image: Jonathanimg,
-    },
-    {
-      name: 'Robert Salgado',
-      title: 'Undergraduate Research Assistant',
-      image: robertimg,
     }
   ];
 

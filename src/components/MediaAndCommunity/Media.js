@@ -78,7 +78,6 @@ function Media() {
         { text: "The Science Times", link: "https://www.sciencetimes.com/articles/43199/20230410/suicide-rates-peak-during-full-moon-late-afternoons-new-study.htm" },
         { text: "The Jerusalem Post", link: "https://www.jpost.com/health-and-wellness/article-738803" },
         { text: "LA Weekly", link: "https://www.laweekly.com/full-moon-suicide-scientists-may-have-figured-out-why-lunar-events-contribute-to-an-increase-in-self-harm/" },
-        { text: "Dr. Niculescu discussing the study", link: "https://indiana-my.sharepoint.com/:v:/g/personal/bstemen_iu_edu/EeLL8e2-yRpHoJgb_B3wtqEBO-NsHQ6IpMD-yxiJVMRUSA?e=EnsOht" }
       ]
     },
     {
@@ -92,7 +91,6 @@ function Media() {
         { text: "Desert News", link: "https://www.deseret.com/2023/3/10/23630654/anxiety-disorder-blood-test-indiana-university-research" },
         { text: "Verywell Health", link: "https://www.verywellhealth.com/anxiety-blood-test-7255681" },
         { text: "The Science Times", link: "https://www.sciencetimes.com/articles/42770/20230311/new-blood-test-determine-ones-risk-developing-anxiety-severity-best.htm" },
-        { text: "Dr. Niculescu discussing the study", link: "https://indiana-my.sharepoint.com/:v:/g/personal/bstemen_iu_edu/EZcg6oKC3w1AmSyHEPUxRpIBX-RPi2qrD7Xfi15UfsWcFQ?e=aY2V9n" },
         { text: "Big Ten TV Network – Half-Time of IU Basketball Game (2023)", link: "https://app.box.com/s/6d43w5j9vafwfv491nv44ufdf8qap8aw" }
       ]
     },
