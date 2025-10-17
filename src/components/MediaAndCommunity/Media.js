@@ -46,6 +46,12 @@ const MediaItem = styled.li`
 function Media() {
   const mediaSections = [
     {
+      title:"Breakthrough Study Leads to Better Assessment and Treatments for Chronic Pain",
+      items: [
+        {text: "UA-Phx College of Medicine News", link:"https://phoenixmed.arizona.edu/newsroom/news/breakthrough-study-leads-better-assessment-and-treatments-chronic-pain"}
+      ]
+    },
+    {
       title:"Special Report: Precise, Personalized, and Preventive Psychiatry",
       items: [
         {text: "Psychiatric News", link:"https://psychiatryonline.org/doi/10.1176/appi.pn.2024.12.12.27"}
