@@ -48,7 +48,7 @@ function Media() {
     {
       title:"Breakthrough Study Leads to Better Assessment and Treatments for Chronic Pain",
       items: [
-        {text: "UA-Phx College of Medicine News", link:"https://phoenixmed.arizona.edu/newsroom/news/breakthrough-study-leads-better-assessment-and-treatments-chronic-pain"}
+        {text: "UofA-Phoenix College of Medicine News", link:"https://phoenixmed.arizona.edu/newsroom/news/breakthrough-study-leads-better-assessment-and-treatments-chronic-pain"}
       ]
     },
     {
