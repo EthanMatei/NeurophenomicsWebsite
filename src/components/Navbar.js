@@ -68,7 +68,8 @@ const BottomText = styled.span`
   margin-top: 0.5rem;     /* spacing between logo and text */
   font-size: 0.85rem;     /* slightly smaller than nav links */
   text-align: center;
-  font-style: italic;     /* optional styling */
+  font-style: italic;     /* optional */
+  font-weight: 700;       /* makes the text bold */
 `;
 
 function Sidebar() {
