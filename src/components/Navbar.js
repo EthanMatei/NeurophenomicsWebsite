@@ -65,11 +65,10 @@ const BottomLogo = styled.img`
 `;
 
 const BottomText = styled.span`
-  margin-top: 0.5rem;     /* spacing between logo and text */
-  font-size: 0.85rem;     /* slightly smaller than nav links */
+  margin-top: 0.3rem;     /* spacing between logo and text */
+  font-size: 0.80rem;     /* slightly smaller than nav links */
   text-align: center;
-  font-style: italic;     /* optional */
-  font-weight: 700;       /* makes the text bold */
+  font-weight: 500;       /* makes the text bold */
 `;
 
 function Sidebar() {
