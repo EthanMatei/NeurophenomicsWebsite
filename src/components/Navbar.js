@@ -5,11 +5,11 @@ import logo from '../assets/UofA.png';
 import c4pLogo from '../assets/C4P_Logo.png';
 
 const SidebarContainer = styled.nav`
-  width: 175px;           /* Fixed width for sidebar */
-  min-height: 100vh;      /* Full viewport height */
+  width: 175px;           
+  min-height: 100vh;      
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  justify-content: space-between; /* Push top and bottom content apart */
+  flex-direction: column; 
+  justify-content: space-between; 
   background-color: #2c3e50;
   padding: 1rem;
   color: white;
@@ -23,11 +23,11 @@ const TopSection = styled.div`
 const BrandContainer = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 2rem;    /* Spacing below brand */
+  margin-bottom: 2rem;    
 `;
 
 const Logo = styled.img`
-  width: 40px;    /* Adjust as needed */
+  width: 40px;    
   height: auto;
   margin-right: 10px;
 `;
@@ -46,7 +46,7 @@ const NavLinks = styled.ul`
 `;
 
 const NavLinkItem = styled.li`
-  margin-bottom: 1rem; /* Spacing between each link */
+  margin-bottom: 1rem; 
 `;
 
 const StyledLink = styled(Link)`
@@ -59,9 +59,10 @@ const StyledLink = styled(Link)`
 `;
 
 const BottomLogo = styled.img`
-  width: 50px;    /* Adjust as needed */
+  width: 80px;           /* Increased size */
   height: auto;
-  align-self: center; /* Center horizontally at bottom */
+  align-self: center;    
+  margin-bottom: 20px;   /* Space from the bottom */
 `;
 
 function Sidebar() {
