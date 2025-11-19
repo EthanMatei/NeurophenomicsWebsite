@@ -118,7 +118,7 @@ function Sidebar() {
         {/* C4P logo and text below the Photo Album option */}
         <BottomLogoItem>
           <BottomLogo src={c4pLogo} alt="C4P Logo" />
-          <BottomText>Vive. Felicius. Diutius.</BottomText>
+          <BottomText>VIVE. FELICIUS. DIUTIUS.</BottomText>
         </BottomLogoItem>
       </NavLinks>
     </SidebarContainer>
