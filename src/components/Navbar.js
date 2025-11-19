@@ -9,15 +9,9 @@ const SidebarContainer = styled.nav`
   min-height: 100vh;      
   display: flex;
   flex-direction: column; 
-  justify-content: space-between; 
   background-color: #2c3e50;
   padding: 1rem;
   color: white;
-`;
-
-const TopSection = styled.div`
-  display: flex;
-  flex-direction: column;
 `;
 
 const BrandContainer = styled.div`
@@ -58,61 +52,65 @@ const StyledLink = styled(Link)`
   }
 `;
 
+const BottomLogoItem = styled.li`
+  display: flex;
+  justify-content: center; /* center horizontally */
+  margin-top: 1rem;       /* spacing above logo */
+`;
+
 const BottomLogo = styled.img`
-  width: 80px;           /* Increased size */
+  width: 80px;      /* adjust size as needed */
   height: auto;
-  align-self: center;    
-  margin-bottom: 20px;   /* Space from the bottom */
 `;
 
 function Sidebar() {
   return (
     <SidebarContainer>
-      <TopSection>
-        <BrandContainer>
-          <Logo src={logo} alt="University Logo" />
-          <Title>Center for Precise, Personalized, and Preventive Psychiatry (C4P)</Title>
-        </BrandContainer>
+      <BrandContainer>
+        <Logo src={logo} alt="University Logo" />
+        <Title>Center for Precise, Personalized, and Preventive Psychiatry (C4P)</Title>
+      </BrandContainer>
 
-        <NavLinks>
-          <NavLinkItem>
-            <StyledLink to="/">Home</StyledLink>
-          </NavLinkItem>
-          <NavLinkItem>
-            <StyledLink to="/selected-publications">Publications</StyledLink>
-          </NavLinkItem>
-          <NavLinkItem>
-            <StyledLink to="/media">Media</StyledLink>
-          </NavLinkItem>
-          <NavLinkItem>
-            <StyledLink to="/Our-Lab">People</StyledLink>
-          </NavLinkItem>
-          <NavLinkItem>
-            <StyledLink to="/Firsts">Firsts</StyledLink>
-          </NavLinkItem>
-          <NavLinkItem>
-            <StyledLink to="/FAQ">FAQ</StyledLink>
-          </NavLinkItem>
-          <NavLinkItem>
-            <StyledLink to="/contactus">Contact Us</StyledLink>
-          </NavLinkItem>
-          <NavLinkItem>
-            <StyledLink to="/gscholar">Citations and Reproducibility</StyledLink>
-          </NavLinkItem>
-          <NavLinkItem>
-            <StyledLink to="/book">Life and Mind Book</StyledLink>
-          </NavLinkItem>
-          <NavLinkItem>
-            <StyledLink to="/philan">Philanthropy</StyledLink>
-          </NavLinkItem>
-          <NavLinkItem>
-            <StyledLink to="/photoalbum">Photo Album</StyledLink>
-          </NavLinkItem>
-        </NavLinks>
-      </TopSection>
+      <NavLinks>
+        <NavLinkItem>
+          <StyledLink to="/">Home</StyledLink>
+        </NavLinkItem>
+        <NavLinkItem>
+          <StyledLink to="/selected-publications">Publications</StyledLink>
+        </NavLinkItem>
+        <NavLinkItem>
+          <StyledLink to="/media">Media</StyledLink>
+        </NavLinkItem>
+        <NavLinkItem>
+          <StyledLink to="/Our-Lab">People</StyledLink>
+        </NavLinkItem>
+        <NavLinkItem>
+          <StyledLink to="/Firsts">Firsts</StyledLink>
+        </NavLinkItem>
+        <NavLinkItem>
+          <StyledLink to="/FAQ">FAQ</StyledLink>
+        </NavLinkItem>
+        <NavLinkItem>
+          <StyledLink to="/contactus">Contact Us</StyledLink>
+        </NavLinkItem>
+        <NavLinkItem>
+          <StyledLink to="/gscholar">Citations and Reproducibility</StyledLink>
+        </NavLinkItem>
+        <NavLinkItem>
+          <StyledLink to="/book">Life and Mind Book</StyledLink>
+        </NavLinkItem>
+        <NavLinkItem>
+          <StyledLink to="/philan">Philanthropy</StyledLink>
+        </NavLinkItem>
+        <NavLinkItem>
+          <StyledLink to="/photoalbum">Photo Album</StyledLink>
+        </NavLinkItem>
 
-      {/* C4P logo at the bottom */}
-      <BottomLogo src={c4pLogo} alt="C4P Logo" />
+        {/* C4P logo below the Photo Album option */}
+        <BottomLogoItem>
+          <BottomLogo src={c4pLogo} alt="C4P Logo" />
+        </BottomLogoItem>
+      </NavLinks>
     </SidebarContainer>
   );
 }
