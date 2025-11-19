@@ -54,13 +54,21 @@ const StyledLink = styled(Link)`
 
 const BottomLogoItem = styled.li`
   display: flex;
-  justify-content: center; /* center horizontally */
-  margin-top: 1rem;       /* spacing above logo */
+  flex-direction: column; /* stack logo and text vertically */
+  align-items: center;    /* center horizontally */
+  margin-top: 1.5rem;     /* spacing above logo */
 `;
 
 const BottomLogo = styled.img`
-  width: 80px;      /* adjust size as needed */
+  width: 100px;  /* slightly larger */
   height: auto;
+`;
+
+const BottomText = styled.span`
+  margin-top: 0.5rem;     /* spacing between logo and text */
+  font-size: 0.85rem;     /* slightly smaller than nav links */
+  text-align: center;
+  font-style: italic;     /* optional styling */
 `;
 
 function Sidebar() {
@@ -106,9 +114,10 @@ function Sidebar() {
           <StyledLink to="/photoalbum">Photo Album</StyledLink>
         </NavLinkItem>
 
-        {/* C4P logo below the Photo Album option */}
+        {/* C4P logo and text below the Photo Album option */}
         <BottomLogoItem>
           <BottomLogo src={c4pLogo} alt="C4P Logo" />
+          <BottomText>Vive. Felicius. Diutius.</BottomText>
         </BottomLogoItem>
       </NavLinks>
     </SidebarContainer>
