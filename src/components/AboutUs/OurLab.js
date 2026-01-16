@@ -163,6 +163,11 @@ function LabMembers() {
       image: nicholasimg,
     },
     {
+      name: 'Aayush Rastogi',
+      title: 'Undergraduate Research Assistant',
+      image: aayushimg,
+    },
+    {
       name: 'Johnathan Romero',
       title: 'MD-PhD Student',
       image: Jonathanimg,
